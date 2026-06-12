@@ -1,7 +1,7 @@
 {
     "name": "dduers/t3-sitepackage-comeun1ty",
     "type": "typo3-cms-extension",
-    "description": "Sitepackage (Comeun1ty)",
+    "description": "TYPO3 CMS Sitepackage: Comeun1ty",
     "homepage": "https://docs.typo3.org/permalink/t3sitepackage:start",
     "license": [
         "GPL-2.0-or-later"
