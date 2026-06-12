@@ -1,5 +1,5 @@
 name: dduers/t3-sitepackage-comeun1ty
-label: "Site Package (Comeun1ty)"
+label: "TYPO3 CMS Sitepackage: Comeun1ty"
 dependencies:
   - typo3/fluid-styled-content
   - typo3/fluid-styled-content-css
