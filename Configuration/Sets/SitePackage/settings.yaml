@@ -1,0 +1,35 @@
+styles:
+  templates:
+    layoutRootPath: EXT:t3_sitepackage_comeun1ty/Resources/Private/ContentElements/Layouts/
+    partialRootPath: EXT:t3_sitepackage_comeun1ty/Resources/Private/ContentElements/Partials/
+    templateRootPath: EXT:t3_sitepackage_comeun1ty/Resources/Private/ContentElements/Templates/
+  content:
+    textmedia:
+      maxW: 1200
+      maxWInText: 600
+      linkWrap:
+        lightboxEnabled: true
+        lightboxCssClass: lightbox
+email:
+  format: html
+  templateRootPaths:
+    - "EXT:t3-sitepackage-comeun1ty/Resources/Private/Email/Templates/"
+  layoutRootPaths:
+    - "EXT:t3-sitepackage-comeun1ty/Resources/Private/Email/Layout/"
+  partialRootPaths:
+    - "EXT:t3-sitepackage-comeun1ty/Resources/Private/Email/Partials/"
+plugin:
+  tx_sfregister:
+    view:
+      templateRootPath: "EXT:t3_sitepackage_comeun1ty/Resources/Private/Extensions/SfRegister/Templates/"
+      partialRootPath: "EXT:t3_sitepackage_comeun1ty/Resources/Private/Extensions/SfRegister/Partials/"
+      layoutRootPath: "EXT:t3_sitepackage_comeun1ty/Resources/Private/Extensions/SfRegister/Layouts/"
+felogin:
+  view:
+    templateRootPath: "EXT:t3_sitepackage_comeun1ty/Resources/Private/Extensions/FeLogin/Templates/"
+    partialRootPath: "EXT:t3_sitepackage_comeun1ty/Resources/Private/Extensions/FeLogin/Partials/"
+    layoutRootPath: "EXT:t3_sitepackage_comeun1ty/Resources/Private/Extensions/FeLogin/Layouts/"
+  email:
+    templateRootPath: "EXT:t3_sitepackage_comeun1ty/Resources/Private/Extensions/FeLogin/Email/Templates/"
+redirects:
+  autoCreateRedirects: false

@@ -1,0 +1,44 @@
+page = PAGE
+page {
+
+    10 = PAGEVIEW
+    10 {
+        paths {
+            0 = EXT:t3_sitepackage_comeun1ty/Resources/Private/
+            10 = {$T3SitepackageComeun1ty.templateRootPath}
+        }
+        dataProcessing {
+            # makes content elements available as {content} in Fluid template
+            10 = page-content
+        }
+    }
+
+    // 10 = FLUIDTEMPLATE
+    // 10 {
+    //     templateName = Default
+    //     templateRootPaths {
+    //         0 = EXT:t3_sitepackage_comeun1ty/Resources/Private/Templates/
+    //         10 = {$T3SitepackageComeun1ty.templateRootPath}
+    //     }
+    //     partialRootPaths {
+    //         0 = EXT:t3_sitepackage_comeun1ty/Resources/Private/Partials/
+    //         10 = {$T3SitepackageComeun1ty.partialRootPath}
+    //     }
+    //     layoutRootPaths {
+    //         0 = EXT:t3_sitepackage_comeun1ty/Resources/Private/Layouts/
+    //         10 = {$T3SitepackageComeun1ty.layoutRootPath}
+    //     }
+
+    //     settings {
+    //         T3SitepackageComeun1ty = {$T3SitepackageComeun1ty.templateRootPath}
+    //     }
+
+
+    //     dataProcessing {
+    //         # makes content elements available as {content} in Fluid template
+    //         10 = page-content
+    //     }
+    // }
+    
+    shortcutIcon = {$T3SitepackageComeun1ty.favicon}
+}
